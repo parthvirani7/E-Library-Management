@@ -1,0 +1,21 @@
+{
+  "name": "eg_library",
+  "version": "1.0.0",
+  "description": "E-Library Management Application:",
+  "main": "d Express to create a RESTful API for managing digital libraries. The API includes features such as user authentication, book catalog management, and borrowing/returning operations. MongoDB serves as the database to store book data and user information. The application ensures secure access to library resources, allowing users to search, borrow, return, and manage their borrowed books seamlessly. Additionally, the system supports CRUD operations for administrators to manage the book catalog efficiently.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Parth Virani",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0"
+  }
+}
